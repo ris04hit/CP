@@ -1,1 +1,1 @@
-This Repository majorly contains the templates I use in Comptetitive Programming. You can use [template/vscode.py](vscode.py) or [template/Makefile](Makefile) to convert your templates to vs code snippets. I may add additional competitive programming resources to the repository as needed.
+This Repository majorly contains the templates I use in Comptetitive Programming. You can use [vscode.py](template/vscode.py) or [Makefile](template/Makefile) to convert your templates to vs code snippets. I may add additional competitive programming resources to the repository as needed.
