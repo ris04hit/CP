@@ -6,9 +6,16 @@
 using namespace std;
 
 //
+/* Trie Tree Template */
+
 struct TrieNode {
-    bool is_leaf = false;
-    vector<struct TrieNode*> child = vector<struct TrieNode*> (26);
+    bool is_leaf;
+    vector<struct TrieNode*> child;
+    
+    TrieNode(){
+        is_leaf = false;
+        child = vector<struct TrieNode*> (26);
+    }
 
     void append(string& word){
         struct TrieNode* root = this;

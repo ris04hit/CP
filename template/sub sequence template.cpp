@@ -6,6 +6,8 @@
 using namespace std;
 
 //
+/* Subsequence Template */
+
 // Length of longest common subsequence. Time Complexity: O(s1.size() * s2.size())
 template <typename T> int longest_common_subsequence(T s1, T s2){
     vector<vector<int>> dp(s1.size()+1, vector<int>(s2.size()+1, 0));
