@@ -37,8 +37,12 @@ template <typename T> void output(vector<T> vec){
     return;
 }
 
+/* End of Input Output */
+
 /* Load Templates Here*/
 
+
+/* End of Templates */
 
 /* Main()  function */
 int main()
@@ -57,3 +61,5 @@ int main()
     }
     return 0;
 }
+
+/* End of Main Function */

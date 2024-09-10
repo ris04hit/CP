@@ -39,3 +39,5 @@ struct TrieNode {
         return root->is_leaf;
     }
 };
+
+/* End of Trie Tree Template */

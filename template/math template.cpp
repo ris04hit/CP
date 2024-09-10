@@ -54,3 +54,5 @@ struct Math {
         return m;
     }
 } math;
+
+/* End of Math template */

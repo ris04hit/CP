@@ -22,3 +22,5 @@ struct Sieve{
         }
     }
 };
+
+/*End of Sieve Template*/
