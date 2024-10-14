@@ -53,6 +53,28 @@ struct Math {
         for (long long& x: v) m = min(x, m);
         return m;
     }
+
+    int abs(int a) { if (a<0) return -a; return a; }
+    long long abs(long long a) { if (a<0) return -a; return a; }
+
+    int pow(int a,int b){
+        long long res = 1;
+        while (b>0){
+            if (b%2==1) res = res*a;
+            a = a*a;
+            b = b/2;
+        }
+    }
+
+    int pow(int a,int b, int mod){
+        long long res = 1;
+        while (b>0){
+            if (b%2==1) res = res*a%mod;
+            a = a*a%mod;
+            b = b/2;
+        }
+    }
+
 } math;
 
 /* End of Math template */
